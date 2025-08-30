@@ -15,7 +15,8 @@
   "status",
   "activation_date",
   "deactivation_date",
-  "active_plans"
+  "active_plans",
+  "number_generation_tool"
  ],
  "fields": [
   {
@@ -76,12 +77,18 @@
    "fieldtype": "Table",
    "label": "Active Subscription Plans",
    "options": "Number Subscription Plan"
+  },
+  {
+   "fieldname": "number_generation_tool",
+   "fieldtype": "Link",
+   "label": "Number Generation Tool",
+   "options": "Number Generation Tool"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-30 11:01:56.511289",
+ "modified": "2025-08-30 13:04:56.541983",
  "modified_by": "Administrator",
  "module": "Telecom",
  "name": "Test Generated Numbers",
