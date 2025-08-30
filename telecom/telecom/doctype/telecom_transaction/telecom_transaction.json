@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-30 10:39:08.783174",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_62tx",
+  "amended_from",
+  "type",
+  "amount",
+  "old_balance",
+  "new_balance",
+  "customer",
+  "number",
+  "reloated_plan",
+  "date_time",
+  "details",
+  "note"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_62tx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Telecom Transaction",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "\u062a\u0639\u0628\u0626\u0629 \u0631\u0635\u064a\u062f\n\u0627\u0633\u062a\u0647\u0644\u0627\u0643 \u0631\u0635\u064a\u062f\n\u0634\u0631\u0627\u0621 \u0628\u0627\u0642\u0629\n\u0627\u0633\u062a\u0647\u0644\u0627\u0643 \u0628\u0627\u0642\u0629"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Int",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "old_balance",
+   "fieldtype": "Int",
+   "label": "Old Balance"
+  },
+  {
+   "fieldname": "new_balance",
+   "fieldtype": "Int",
+   "label": "New Balance"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Telecom Customer"
+  },
+  {
+   "fieldname": "number",
+   "fieldtype": "Link",
+   "label": "Number",
+   "options": "Number"
+  },
+  {
+   "fieldname": "reloated_plan",
+   "fieldtype": "Link",
+   "label": "Reloated Plan",
+   "options": "Telecom Subscription Plan"
+  },
+  {
+   "fieldname": "date_time",
+   "fieldtype": "Datetime",
+   "label": "Date Time"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Small Text",
+   "label": "Details"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-08-30 10:43:42.738809",
+ "modified_by": "Administrator",
+ "module": "Telecom",
+ "name": "Telecom Transaction",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
