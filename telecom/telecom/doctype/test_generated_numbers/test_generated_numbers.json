@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-30 11:01:56.511289",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "number",
+  "type",
+  "price",
+  "balance",
+  "balance_expiry_date",
+  "customer",
+  "customer_ssid",
+  "status",
+  "activation_date",
+  "deactivation_date",
+  "active_plans"
+ ],
+ "fields": [
+  {
+   "fieldname": "number",
+   "fieldtype": "Data",
+   "label": "Number"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Link",
+   "label": "Type",
+   "options": "Number Type"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price"
+  },
+  {
+   "fieldname": "balance",
+   "fieldtype": "Int",
+   "label": "Balance"
+  },
+  {
+   "fieldname": "balance_expiry_date",
+   "fieldtype": "Date",
+   "label": "Balance Expiry Date"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Telecom Customer"
+  },
+  {
+   "fieldname": "customer_ssid",
+   "fieldtype": "Attach",
+   "label": "Customer SSID"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Inactive\nReserved\nActive"
+  },
+  {
+   "fieldname": "activation_date",
+   "fieldtype": "Date",
+   "label": "Activation Date"
+  },
+  {
+   "fieldname": "deactivation_date",
+   "fieldtype": "Date",
+   "label": "Deactivation Date"
+  },
+  {
+   "fieldname": "active_plans",
+   "fieldtype": "Table",
+   "label": "Active Subscription Plans",
+   "options": "Number Subscription Plan"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-30 11:01:56.511289",
+ "modified_by": "Administrator",
+ "module": "Telecom",
+ "name": "Test Generated Numbers",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
