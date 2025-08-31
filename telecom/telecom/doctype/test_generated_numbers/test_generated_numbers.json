@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-08-30 09:57:11.734871",
+ "creation": "2025-08-30 11:01:56.511289",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -88,10 +88,10 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-31 16:25:32.610978",
+ "modified": "2025-08-30 13:04:56.541983",
  "modified_by": "Administrator",
  "module": "Telecom",
- "name": "Number",
+ "name": "Test Generated Numbers",
  "owner": "Administrator",
  "permissions": [
   {

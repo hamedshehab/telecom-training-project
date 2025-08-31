@@ -1,19 +1,22 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:type_name",
  "creation": "2025-08-30 10:25:38.739449",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "type_name",
   "criteria",
-  "price"
+  "price",
+  "priority"
  ],
  "fields": [
   {
    "fieldname": "type_name",
    "fieldtype": "Data",
-   "label": "Type Name"
+   "label": "Type Name",
+   "unique": 1
   },
   {
    "fieldname": "criteria",
@@ -23,16 +26,24 @@
   {
    "fieldname": "price",
    "fieldtype": "Currency",
+   "in_list_view": 1,
    "label": "Price"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Int",
+   "label": "Priority",
+   "unique": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-08-30 10:26:30.542677",
+ "modified": "2025-08-31 15:58:32.495351",
  "modified_by": "Administrator",
  "module": "Telecom",
  "name": "Number Type",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
